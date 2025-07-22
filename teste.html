@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Imagem Centralizada</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center; /* centraliza horizontalmente */
+      align-items: center;    /* centraliza verticalmente */
+      background-color: #f0f0f0; /* cor de fundo opcional */
+    }
+    img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <img src="vaca.jpg" alt="Minha Imagem" />
+</body>
+</html>
